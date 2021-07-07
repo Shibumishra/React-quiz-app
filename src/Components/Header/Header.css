@@ -8,6 +8,8 @@
     font-size: 8vw;
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
+    font-weight: bold;
+    background-color: indianred;
 }
 .divider{
     margin: 10px;
