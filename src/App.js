@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="app" style={{backgroundImage: "url(./ques1.png)"}}>
       <Header />
       <Switch>
@@ -44,7 +44,7 @@ function App() {
       </Switch>
     </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
